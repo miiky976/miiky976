@@ -1,0 +1,166 @@
+{
+	"name": "Miguel Angel Ramos Ruiz",
+	"description": "Estudiante de Ingeniería en Software, apasionado por la tecnología y siempre en busca de nuevos retos.",
+	"profile_picture_url": "https://avatars.githubusercontent.com/miiky976",
+	"location": {
+		"city": "Pachuca de Soto",
+		"state": "Hidalgo",
+		"country": "México",
+		"icon_url": "https://img.icons8.com/color/20/mexico.png"
+	},
+	"contact": {
+		"title": "Contacto",
+		"items": [
+			{
+				"title": "email",
+				"link": "mailto:miiky976.dev@gmail.com",
+				"content": "miiky976.dev@gmail.com",
+				"icon_url": "https://img.icons8.com/color/20/gmail.png"
+			},
+			{
+				"title": "phone",
+				"link": "tel:+527712987136",
+				"content": "(+52)7712987136",
+				"icon_url": "https://img.icons8.com/color/20/phone.png"
+			},
+			{
+				"title": "Github",
+				"link": "https://github.com/miiky976",
+				"content": "miiky976",
+				"icon_url": "https://img.icons8.com/color/20/github--v1.png"
+			},
+			{
+				"title": "Linkedin",
+				"link": "https://linkedin.com/in/miiky976",
+				"content": "miiky976",
+				"icon_url": "https://img.icons8.com/color/20/linkedin.png"
+			}
+		]
+	},
+	"education": {
+		"title": "Educación",
+		"degree": "Ingeniero en Software",
+		"school": "Universidad Politecnica de Pachuca",
+		"location": "Zempoala, Hidalgo",
+		"dates": "2020-2023"
+	},
+	"skills": {
+		"title": "Habilidades",
+		"items": [
+			{
+				"name": "go",
+				"icon_url": "https://img.icons8.com/color/30/golang.png" 
+			},
+			{
+				"name": "python",
+				"icon_url": "https://img.icons8.com/color/20/python.png"
+			},
+			{
+				"name": "kotlin",
+				"icon_url": "https://img.icons8.com/color/20/kotlin.png"
+			},
+			{
+				"name": "android",
+				"icon_url": "https://img.icons8.com/fluency/20/android-os.png"
+			},
+			{
+				"name": "java",
+				"icon_url": "https://img.icons8.com/color/20/java-coffee-cup-logo.png"
+			},
+			{
+				"name": "javascript",
+				"icon_url": "https://img.icons8.com/color/20/javascript.png"
+			},
+			{
+				"name": "typescript",
+				"icon_url": "https://img.icons8.com/color/20/typescript.png"
+			},
+			{
+				"name": "react",
+				"icon_url": "https://img.icons8.com/color/20/react-native.png"
+			},
+			{
+				"name": "astro js",
+				"icon_url": "https://img.icons8.com/nolan/20/astro-js.png"
+			},
+			{
+				"name": "tailwind css",
+				"icon_url": "https://img.icons8.com/color/20/tailwind_css.png"
+			},
+			{
+				"name": "html",
+				"icon_url": "https://img.icons8.com/color/20/html-5.png"
+			},
+			{
+				"name": "css",
+				"icon_url": "https://img.icons8.com/color/20/css3.png"
+			},
+			{
+				"name": "htmx",
+				"icon_url": "https://img.icons8.com/color/20/source-code.png"
+			},
+			{
+				"name": "mariadb",
+				"icon_url": "https://img.icons8.com/color/20/maria-db.png"
+			},
+			{
+				"name": "git",
+				"icon_url": "https://img.icons8.com/color/20/git.png"
+			},
+			{
+				"name": "mongodb",
+				"icon_url": "https://img.icons8.com/color/20/mongodb.png"
+			},
+			{
+				"name": "linux",
+				"icon_url": "https://img.icons8.com/color/20/linux.png"
+			}
+		]
+	},
+	"languages": {
+		"title": "Idiomas",
+		"items": [
+			{
+				"language": "Inglés",
+				"fluency": "Entendimiento básico"
+			},
+			{
+				"language": "Español",
+				"fluency": "Nativo"
+			}
+		]
+	},
+	"projects": {
+		"title": "Proyectos",
+		"items": [
+			{
+				"title": "CarchainGUI",
+				"project_type": "Académico",
+				"description": "Un concepto de GUI para CarChain, un proyecto blockchain para automóviles, hecha con React y Raw CSS, basada en las pautas de Material Design 3. Componentes hechos desde cero.",
+				"link": "https://github.com/miiky976/CarChainGUI"
+			},
+			{
+				"title": "Houser",
+				"project_type": "Académico",
+				"description": "Aplicación para Android hecha con Jetpack Compose, es un CRUD simple para casas. Mediante el uso de Jetpack Compose, la aplicación adoptó las pautas de Material Design 3 de forma predeterminada.",
+				"link": "https://github.com/miiky976/Houser"
+			},
+			{
+				"title": "Houser API",
+				"project_type": "Académico",
+				"description": "El backend de Houser, hecho con Go, Fiber y MariaDB, una API REST sencilla con un login súper sencillo y CRUD para casas.",
+				"link": "https://github.com/miiky976/HouserAPI"
+			},
+			{
+				"title": "HTMX/GitHub Pages/CV-Portfolio",
+				"project_type": "Personal",
+				"description": "Por lo general, no se recomienda incluir el Portafolio propio en la lista de proyectos, pero estoy orgulloso, lo hice con HTMX, un poco de JavaScript y lo estoy alojando en GitHub Pages.",
+				"link": "https://github.com/miiky976/miiky976"
+			}
+		]
+	},
+	"about": {
+		"title": "Acerca de mí",
+		"content": "Soy un estudiante de Ingeniería en Software, y mi pasión por la tecnología y el constante deseo de superación me impulsan a buscar nuevos retos. Admiro profundamente el enfoque del código abierto y encuentro en el ecosistema Linux una fuente inagotable de posibilidades para mejorar mi eficiencia en el trabajo. Me entusiasman las directrices de Material Design 3 y me esfuerzo continuamente por incorporarlas de manera efectiva en mis proyectos."
+	}
+}

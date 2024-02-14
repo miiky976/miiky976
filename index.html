@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>miiky976.dev</title>
+	<script src="https://unpkg.com/htmx.org@1.9.6"></script>
+	<script src="https://unpkg.com/htmx.org/dist/ext/client-side-templates.js"></script>
+	<script src="https://unpkg.com/mustache@latest"></script>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description"
+		content="A simple example of using htmx to create a single page application and githubpages">
+</head>
+
+<body>
+	<main>
+		<button class="noPrint" onclick="window.print()">Print</button>
+		<div id="language" hx-ext="client-side-templates" hx-trigger="load" hx-get="./temp.json" hx-swap="#jsom"
+			mustache-template="foo">
+			<link rel="stylesheet" href="style.css">
+			<p id="jsom"></p>
+			<template id="foo">
+				<div class="whoami">
+					<div class="header">
+						<h1>{{name}}</h1>
+						<p>
+							{{description}}
+						</p>
+						<div class="where">
+							<img width="20" height="20" src="{{location.icon_url}}" alt="{{location.city}}">
+							{{location.city}}, {{location.state}}, {{location.country}}
+						</div>
+					</div>
+					<img width="150" height="150" src="{{profile_picture_url}}" alt="{{name}}">
+				</div>
+				<h2>
+					{{contact.title}}
+				</h2>
+				<div class="contacts">
+					{{#contact.items}}
+					<a href="{{link}}" class="contactChip" target="_blank">
+						<img width="20" height="20" src="{{icon_url}}" alt="{{title}}" style="padding-right: 1rem;">
+						{{content}}
+					</a>
+					{{/contact.items}}
+				</div>
+				<h2>
+					{{about.title}}
+				</h2>
+				<p>
+					{{about.content}}
+				</p>
+				<h2>
+					{{languages.title}}
+				</h2>
+				<div class="languages">
+					{{#languages.items}}
+					<div class="language">
+						{{language}}
+						{{fluency}}
+					</div>
+					{{/languages.items}}
+				</div>
+				<h2>
+					{{education.title}}
+				</h2>
+				<div class="education">
+					<h3>{{education.degree}}</h3>
+					{{education.school}} / {{education.location}} / {{education.dates}}
+				</div>
+				<h2>
+					{{projects.title}}
+				</h2>
+				<div class="projects">
+					{{#projects.items}}
+					<div class="projectCard">
+						<a href="{{link}}" target="_blank">
+							<h3>{{title}}</h3>
+						</a>
+						<small>{{project_type}}</small>
+						<p>{{description}}</p>
+					</div>
+					{{/projects.items}}
+				</div>
+				<h2>
+					{{skills.title}}
+				</h2>
+				<div class="skills" style="display: flex; flex-flow: row wrap;">
+					{{#skills.items}}
+					<div class="skill">
+						{{name}}<img width="20" height="20" src="{{icon_url}}" alt="{{name}}"
+							style="padding-left: 0.5rem;">
+					</div>
+					{{/skills.items}}
+				</div>
+			</template>
+		</div>
+	</main>
+	<script>
+		var language = navigator.language.substring(0, 2);
+		if (language !== 'en' && language !== 'es') {
+			language = 'en';
+		}
+		var langhandler = document.getElementById('language');
+		langhandler.setAttribute('hx-get', './langs/' + language + '.json');
+	</script>
+
+</html>

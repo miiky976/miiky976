@@ -1,0 +1,166 @@
+{
+	"name": "Miguel Angel Ramos Ruiz",
+	"description": "Software Engineer student, passionate about technology, always looking for new challenges.",
+	"profile_picture_url": "https://avatars.githubusercontent.com/miiky976",
+	"location": {
+		"city": "Pachuca de Soto",
+		"state": "Hidalgo",
+		"country": "México",
+		"icon_url": "https://img.icons8.com/color/20/mexico.png"
+	},
+	"contact": {
+		"title": "Contact",
+		"items": [
+			{
+				"title": "email",
+				"link": "mailto:miiky976.dev@gmail.com",
+				"content": "miiky976.dev@gmail.com",
+				"icon_url": "https://img.icons8.com/color/20/gmail-new.png"
+			},
+			{
+				"title": "phone",
+				"link": "tel:+527712987136",
+				"content": "(+52)7712987136",
+				"icon_url": "https://img.icons8.com/color/20/phone.png"
+			},
+			{
+				"title": "Github",
+				"link": "https://github.com/miiky976",
+				"content": "miiky976",
+				"icon_url": "https://img.icons8.com/color/20/github--v1.png"
+			},
+			{
+				"title": "Linkedin",
+				"link": "https://linkedin.com/in/miiky976",
+				"content": "miiky976",
+				"icon_url": "https://img.icons8.com/color/20/linkedin.png"
+			}
+		]
+	},
+	"education": {
+		"title": "Education",
+		"degree": "Software Engineer",
+		"school": "Universidad Politecnica de Pachuca",
+		"location": "Zempoala, Hidalgo",
+		"dates": "2020-2023"
+	},
+	"skills": {
+		"title": "Skills",
+		"items": [
+			{
+				"name": "go",
+				"icon_url": "https://img.icons8.com/color/20/golang.png" 
+			},
+			{
+				"name": "python",
+				"icon_url": "https://img.icons8.com/color/20/python.png"
+			},
+			{
+				"name": "kotlin",
+				"icon_url": "https://img.icons8.com/color/20/kotlin.png"
+			},
+			{
+				"name": "android",
+				"icon_url": "https://img.icons8.com/fluency/20/android-os.png"
+			},
+			{
+				"name": "java",
+				"icon_url": "https://img.icons8.com/color/20/java-coffee-cup-logo.png"
+			},
+			{
+				"name": "javascript",
+				"icon_url": "https://img.icons8.com/color/20/javascript.png"
+			},
+			{
+				"name": "typescript",
+				"icon_url": "https://img.icons8.com/color/20/typescript.png"
+			},
+			{
+				"name": "react",
+				"icon_url": "https://img.icons8.com/color/20/react-native.png"
+			},
+			{
+				"name": "astro js",
+				"icon_url": "https://img.icons8.com/nolan/20/astro-js.png"
+			},
+			{
+				"name": "tailwind css",
+				"icon_url": "https://img.icons8.com/color/20/tailwind_css.png"
+			},
+			{
+				"name": "html",
+				"icon_url": "https://img.icons8.com/color/20/html-5.png"
+			},
+			{
+				"name": "css",
+				"icon_url": "https://img.icons8.com/color/20/css3.png"
+			},
+			{
+				"name": "htmx",
+				"icon_url": "https://img.icons8.com/color/20/source-code.png"
+			},
+			{
+				"name": "mariadb",
+				"icon_url": "https://img.icons8.com/color/20/maria-db.png"
+			},
+			{
+				"name": "git",
+				"icon_url": "https://img.icons8.com/color/20/git.png"
+			},
+			{
+				"name": "mongodb",
+				"icon_url": "https://img.icons8.com/color/20/mongodb.png"
+			},
+			{
+				"name": "linux",
+				"icon_url": "https://img.icons8.com/color/20/linux.png"
+			}
+		]
+	},
+	"languages": {
+		"title": "Languages",
+		"items": [
+			{
+				"language": "English",
+				"fluency": "Bit fluent"
+			},
+			{
+				"language": "Spanish",
+				"fluency": "Native"
+			}
+		]
+	},
+	"projects": {
+		"title": "Projects",
+		"items": [
+			{
+				"title": "CarchainGUI",
+				"project_type": "Schoolar",
+				"description": "A GUI concept for Carchain, a blockchain for cars, made with React and Raw CSS, based on the Material Design 3 guidelines. I created all the components from scratch.",
+				"link": "https://github.com/miiky976/CarChainGUI"
+			},
+			{
+				"title": "Houser",
+				"project_type": "Schoolar",
+				"description": "Android app made with Jetpack Compose, that is a simple CRUD for houses. By the use of Jetpack Compose the app adopted Material Design 3 guidelines by default.",
+				"link": "https://github.com/miiky976/Houser"
+			},
+			{
+				"title": "Houser API",
+				"project_type": "Schoolar",
+				"description": "The backend for Houser, made with Go, Fiber and MariaDB, a simple REST API with a super simple login and CRUD for houses.",
+				"link": "https://github.com/miiky976/HouserAPI"
+			},
+			{
+				"title": "HTMX/GitHub Pages/CV-Portfolio",
+				"project_type": "Personal",
+				"description": "Usually it is not recommended to put your Portfolio in your project list, but I'm proud of it, I made it with HTMX, a little bit of JavaScript, and I'm hosting it in GitHub Pages.",
+				"link": "https://github.com/miiky976/miiky976"
+			}
+		]
+	},
+	"about": {
+		"title": "About me",
+		"content": "I'm a Software Engineer student, I'm passionate about technology, I love to learn new things, and I'm always looking for new challenges. I'm a fan of open source and the Linux ecosystem, I'm always looking for ways to improve my workflow. I'm a fan of the Material Design 3 guidelines, and I'm always looking for ways to implement them in my projects."
+	}
+}
