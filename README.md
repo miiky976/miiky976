@@ -4,6 +4,8 @@
 I use Arch <img src="https://simpleicons.org/icons/archlinux.svg" height=14> BTW. | 
 I use Neovim <img src="https://svgl.app/library/neovim.svg" height=14> BTW. | 
 I love Artix <img src="https://simpleicons.org/icons/artixlinux.svg" height=14> BTW. | 
+I like HTMX BTW |
+I want to add some more stuff BTW
 
 # Languages
 <p>
